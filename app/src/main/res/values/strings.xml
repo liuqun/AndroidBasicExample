@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Basic Test Example</string>
+    <string name="message_001">Message 001: Button 1 has been clicked.</string>
+    <string name="message_002">Message 002: Button 2 has been clicked.</string>
+    <string name="button_1_text">Button 1</string>
+    <string name="button_2_text">Button 2</string>
+</resources>
