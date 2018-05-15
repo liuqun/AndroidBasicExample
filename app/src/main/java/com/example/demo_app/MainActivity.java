@@ -32,9 +32,9 @@ public class MainActivity extends Activity {
         }
 
         mResources = getResources();
-        mTextView1 = findViewById(R.id.text_view_1);
-        Button mButton1 = findViewById(R.id.button_1);
-        Button mButton2 = findViewById(R.id.button_2);
+        mTextView1 = (TextView) findViewById(R.id.text_view_1);
+        Button mButton1 = (Button) findViewById(R.id.button_1);
+        Button mButton2 = (Button) findViewById(R.id.button_2);
         mButton1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (null == mTextView1) {
